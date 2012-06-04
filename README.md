@@ -71,4 +71,4 @@ Finally, in your view, you can use your Exhibit:
 
 Configuration
 -------------
-Because Rails lazily-loads files, in development mode DisplayCase will search /app/exhibits to load the Exhibits found there. If your Exhibits are elsewhere, you can set `DisplayCase.definition_file_paths = ['list/of/directories', 'to/find/exhibits']` in your config/environments/development.rb.
+Because Rails lazily-loads files in development mode, DisplayCase will search /app/exhibits to load the Exhibits found there. If your Exhibits are elsewhere, you can set `DisplayCase.definition_file_paths = ['list/of/directories', 'to/find/exhibits']` in your config/environments/development.rb.
